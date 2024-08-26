@@ -4,6 +4,10 @@
   box-sizing: border-box; /* setting the box-sizing property to border-box allows both padding and border to be added within the width and height of the element. */
 }
 
+.main {
+  display: flex;
+}
+
 header {
   text-align: center;
   position: relative;
@@ -82,3 +86,47 @@ header h1 {
 }
 
 /* side bar styles end */
+
+/* main content styles start */
+
+.main-content {
+  width: 70%;
+  padding: 10px;
+  margin-left: auto;
+}
+
+h2,
+h3 {
+  color: #25265e;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+.main ul {
+  list-style-position: inside;
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.section-break {
+  margin: 24px 0px;
+}
+
+pre.code-block {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background-color: aliceblue;
+  margin-bottom: 24px;
+  white-space: pre-line;
+}
+
+/* images are allowed to shrink for smaller screen sizes */
+.main-content img {
+  max-width: 100%;
+}
+/* main content styles end */
