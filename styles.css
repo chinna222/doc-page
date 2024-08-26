@@ -31,3 +31,54 @@ header h1 {
   line-height: 80px;
   color: #25265e;
 }
+
+/* side bar styles start */
+
+.sidebar {
+  width: 30%;
+  height: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  color: #25265e;
+  padding: 8px;
+  /* makes the sidebar sticky */
+  position: sticky;
+  top: 0px;
+}
+
+.menu-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.sidebar ul {
+  /* removes the bullet points in list items */
+  list-style-type: none;
+
+  /* list item marker is placed within the content area of the list item */
+  list-style-position: inside;
+
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.menu-sub-heading {
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 12px;
+  color: #25265e;
+}
+
+.sub-menu li {
+  margin-bottom: 16px;
+}
+
+.sidebar a {
+  color: #0556f3;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #03338f;
+}
+
+/* side bar styles end */
